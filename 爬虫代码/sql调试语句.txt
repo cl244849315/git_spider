@@ -1,0 +1,25 @@
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION';
+
+TRUNCATE TABLE name
+truncate语句，是清空表中的内容，包括自增主键的信息。truncate表后，表的主键就会重新从1开始。
+
+
+check the manual that corresponds to your Mysql server version for the right syntax to yse near '-' at line 1
+
+[Msg] [Imp] Import table [bridge02]
+[Err] [Imp] 1452 - Cannot add or update a child row: a foreign key constraint fails (`mydb`.`bridge02`, CONSTRAINT `TRSD_id2` FOREIGN KEY (`TRSD_id`) REFERENCES `trsd_adr_vli` (`TRSD_id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+[Err] [Imp] INSERT INTO `bridge02` (`TRSD_pos`,`TRSD_id`,`TRCD_id`,`TRED_id`) VALUES ('20','11',NULL,'3'),('30','11',NULL,'21'),('40','11',NULL,'155'),('0','0',NULL,NULL)
+[Msg] [Imp] Processed:5, Added:1, Updated:0, Deleted:0, Errors:4
+[Msg] [Imp] Finished - Unsuccessfully
+
+mysql> delete from users_table where id =1;
+ERROR 1451 (23000): Cannot delete or update a parent row: a foreign key constraint fails。。。问题解决
+在MySQL在InnoDB中设置了foreign key关联，造成无法更新或删除数据。可以通过设置FOREIGN_KEY_CHECKS变量来避免这种情况。
+在命令行中输入：
+SET FOREIGN_KEY_CHECKS = 0;
+删除完成后设置
+SET FOREIGN_KEY_CHECKS = 1;
+这样再select发现已经删除成功！
+
+truncate table 表名;
+delete from 表名;

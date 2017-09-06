@@ -1,0 +1,87 @@
+PART 1  INTRODUCTION                               D100_D.95B
+
+PART 2  UNIFORM RULES OF CONDUCT FOR INTERCHANGE   PART2_D.ZIP(1) 
+	OF TRADE DATA BY TELETRANSMISSION (UNCID)
+传送传送的贸易数据的统一行为规则(发音标准)
+Chapter 1 Introductory note                        D210_D.95B
+
+Chapter 2 Text of the uniform rules of conduct     D220_D.95B
+
+Chapter 3 Guide for users (2)
+
+Chapter 4 Interchange agreement                    D240_D.95B
+
+PART 3  TERMS AND DEFINITIONS                      PART3_D.ZIP(1)
+	Glossary                                   D300_D.95B
+术语和定义
+PART 4  UNITED NATIONS RULES FOR ELECTRONIC        PART4_D.ZIP(1)
+	DATA INTERCHANGE FOR ADMINISTRATION,
+	COMMERCE AND TRANSPORT
+联合国管理电子数据交换规则，贸易和运输
+Chapter 1   Introduction                           D410_D.95B
+
+Chapter 2   General information
+     2.1    Establishment of United Nations
+	    Standard Message types (UNSMs)         D421_D.95B
+     2.2    UN/EDIFACT syntax rules                
+	    (ISO 9735-latest version)              D422_D.95B
+     2.3    UN/EDIFACT syntax implementation       D4231_D.95B
+	    guidelines                             D4232_D.95B
+						   D4232A_D.95B
+						   D4233_D.95B
+     2.4  UN/EDIFACT message design guidelines     D424_D.95B
+     2.5  Version/release                          D425_D.95B
+     2.6  General introduction to UNSM
+	  descriptions                             D426_D.95B
+
+
+
+
+
+PART 5  UNITED NATIONS DIRECTORIES FOR ELECTRONIC
+	DATA INTERCHANGE FOR ADMINISTRATION, 
+	COMMERCE AND TRANSPORT
+联合国的电子数据交换目录，商业和运输
+Chapter 1 Introduction                             CONTENTD.95B
+Chapter 2 Message type directory(EDMD)             TRMD.ZIP(1)
+     1.   Indexes
+     1.1  Index of message types by code           TRMDI1.95B	【APERAK-WKGRRE	共132个】
+     1.2  Index of message types by name           TRMDI2.95B
+editfact一层字段查找表
+     2.   Message type specifications              xxxxxx_D.95B
+	  (xxxxxx = message type; for example,
+	  INVOIC_D.95B contains the specification
+	  for the invoice message)
+Chapter 3 Message frameworks(TRFR)(3)
+     1.   Indexes
+     1.1  Index of framework types by code         
+     1.2  Index of framework types by name         
+     2.   Framework type specifications
+
+Chapter 4 Segment directory (TRSD)                 TRSD.ZIP(1)(4)
+目录段-editfact二层字段查找表
+     1.   Indexes
+     1.1  Index of segments by tag                 TRSDI1.95B	【ADR-VLI 共126个】
+     1.2  Index of segments by name                TRSDI2.95B
+     2.   Segment specifications                   TRSD.95B
+
+Chapter 5 Composite data element directory (TRCD)  TRCD.ZIP(1)(5)
+复合数据元素目录-editfact复合字段查找表
+     1.   Indexes
+     1.1  Index of composites by tag               TRCDI1.95B	【C002-C960 共160个】
+     1.2  Index of composites by name              TRCDI2.95B
+     2.   Composite specifications                 TRCD.95B	【字段编号和非复合字段详情表一样】
+
+Chapter 6 Data element directory (TRED)            TRED.ZIP(1)(6)
+数据元目录-edifact非复合字段目录表
+     1.   Indexes
+     1.1  Index of data elements by tag            TREDI1.95B  	【1000-9434 	共595个】
+     1.2  Index of data elements by name           TREDI2.95B	 
+     2.   Data element specifications              TRED.95B
+
+Chapter 7 Code lists (UNCL)                        UNCL.ZIP(1)
+标准-edifact非复合字段详情表
+     1.   Code list                                UNCL-1.95B   【1001-4405】
+						   UNCL-2.95B	【4435-9411】
+     2.   Service code list                        UNSL.ZIP(1)
+						   UNSL.95B     【0001-0085】
